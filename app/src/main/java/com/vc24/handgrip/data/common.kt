@@ -1,0 +1,5 @@
+package com.vc24.handgrip.data
+
+const val GRIP_SERVICE = "6015a815-6cf8-480e-8df2-908d9cf26dbc"
+const val GRIP_PRESSURE_CHARACTERISTIC_CONFIG = "f0b88329-41c5-43b8-8aa0-76e7566c8e58"
+const val GRIP_COMMAND_CHARACTERISTIS_CONFIG = "609ad4d6-d02b-4db5-bcc9-78265a1c4b40"

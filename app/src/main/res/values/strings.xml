@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HandGrip</string>
+    <string name="action_settings">Settings</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="discovering">Discovering</string>
+    <string name="connecting">Connecting</string>
+    <string name="no_data">--</string>
+    <string name="ble_not_supported">BLE is not supported by your device :(</string>
+    <string name="error_bluetooth_not_supported">Bluetooth is not supported by your device :(</string>
+    <string name="fraction_template">.%d kg</string>
+    <string name="tare_button">Set zero</string>
+    <string name="multiplier_button">Send weight</string>
+    <string name="multiplier_hint">current weight</string>
+</resources>

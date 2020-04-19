@@ -32,12 +32,14 @@ class SettingsActivity : AppCompatActivity() {
         multiplierEdit = findViewById(R.id.multiplier)
         findViewById<Button>(R.id.tare_button).setOnClickListener {
             mBluetoothLeService?.sendCommand("tare")
+            finish()
         }
         findViewById<Button>(R.id.multiplier_button).setOnClickListener {
             val wt = multiplierEdit.text.toString()
             val weight = wt.toFloatOrNull()
             if(weight != null) {
                 mBluetoothLeService?.sendCommand("weight: $weight")
+                finish()
             }
         }
         val gattServiceIntent = Intent(this, BluetoothLeService::class.java)

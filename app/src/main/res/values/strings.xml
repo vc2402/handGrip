@@ -11,5 +11,5 @@
     <string name="fraction_template">.%d kg</string>
     <string name="tare_button">Set zero</string>
     <string name="multiplier_button">Send weight</string>
-    <string name="multiplier_hint">current weight</string>
+    <string name="multiplier_hint">current weight (g)</string>
 </resources>
